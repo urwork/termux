@@ -1,8 +1,3 @@
-# 替换为清华的源
-
-sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux stable main@' $PREFIX/etc/apt/sources.list
-export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
-pkg up -y
 
 # ssh 登录
 
